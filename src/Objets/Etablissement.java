@@ -20,7 +20,14 @@ public class Etablissement {
         this.nom = nom;
         this.adresse = adresse;
     }
-
+    //
+    
+    //
+    public Etablissement(){
+        //
+        System.out.println("Un Constructeur Vide Etablissement!!!");
+    }
+    //
     public int getId() {
         return id;
     }
