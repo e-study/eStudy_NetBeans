@@ -55,6 +55,12 @@ public class Enseignant {
         this.idEtablissement = idEtablissement;
     }
 
+    public Enseignant() {
+        
+    }
+
+    
+    
     @Override
     public String toString() {
         return "Enseignant{" + "id=" + id + ", nom=" + nom + ", titre=" + titre + ", idEtablissement=" + idEtablissement + '}';
