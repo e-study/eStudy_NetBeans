@@ -59,4 +59,11 @@ public class Faculte {
     public String toString() {
         return "Faculte{" + "id=" + id + ", nom=" + nom + ", idEtablissement=" + idEtablissement + ", nomChef=" + nomChef + '}';
     }
+    //
+    public static void main(String[]args){
+        //
+        System.out.println("Hello!!");
+        //
+    //
+    }
 }

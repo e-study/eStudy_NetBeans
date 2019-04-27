@@ -49,5 +49,13 @@ public class Etablissement {
     public String toString() {
         return "Etablissement{" + "id=" + id + ", nom=" + nom + ", adresse=" + adresse + '}';
     }
+    //
+    public static void main(String[]args){
+        //
+        System.out.println("Hello!!");
+        //
+        
+    }
+    //
     
 }
