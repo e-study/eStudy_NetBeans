@@ -120,4 +120,10 @@ public class Communique {
     public String toString() {
         return "Communique{" + "id=" + id + ", titre=" + titre + ", contenu=" + contenu + ", datePublication=" + datePublication + ", dateExpiration=" + dateExpiration + ", idUtilisateur=" + idUtilisateur + ", idPromotion=" + idPromotion + ", idDepartement=" + idDepartement + ", idFaculte=" + idFaculte + ", idEtablissement=" + idEtablissement + '}';
     }
+    public Communique(){
+    
+    }
+    public static void main(String[]args){
+    
+    }
 }
