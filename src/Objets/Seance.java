@@ -100,4 +100,13 @@ public class Seance {
     public String toString() {
         return "Seance{" + "id=" + id + ", idHoraire=" + idHoraire + ", idCours=" + idCours + ", idEnseignant=" + idEnseignant + ", local=" + local + ", jourDelaSemaine=" + jourDelaSemaine + ", heureDebut=" + heureDebut + ", heureFin=" + heureFin + '}';
     }
+    //
+    public static void main(String[]args){
+        //
+        System.out.println("Hello!!");
+        //
+        
+    }
+    //
+    //
 }
