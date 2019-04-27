@@ -93,6 +93,7 @@ public class Utilisateur {
     public static void main(String[] a){
         System.out.println("Hello!");
         System.out.println("La république démocratique du congo!");
+        System.out.println("Cool.");
     }
     
 }
