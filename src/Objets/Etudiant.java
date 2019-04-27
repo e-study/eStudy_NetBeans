@@ -21,6 +21,7 @@ public class Etudiant {
     public String motdepasse;
     public String telephone;
     public int idPromotion;
+    
 
     public Etudiant(int id, String nom, String postnom, String prenom, Date dateNaissance, String email, String motdepasse, String telephone, int idPromotion) {
         this.id = id;
@@ -111,7 +112,9 @@ public class Etudiant {
         return "Etudiant{" + "id=" + id + ", nom=" + nom + ", postnom=" + postnom + ", prenom=" + prenom + ", dateNaissance=" + dateNaissance + ", email=" + email + ", motdepasse=" + motdepasse + ", telephone=" + telephone + ", idPromotion=" + idPromotion + '}';
     }
     
+    public static void main(String[]args){
     
+    }
     
     
     

@@ -54,9 +54,12 @@ public class Faculte {
     public void setNomChef(String nomChef) {
         this.nomChef = nomChef;
     }
-
+    
     @Override
     public String toString() {
         return "Faculte{" + "id=" + id + ", nom=" + nom + ", idEtablissement=" + idEtablissement + ", nomChef=" + nomChef + '}';
+    }
+    public static void main(String[]args){
+    
     }
 }

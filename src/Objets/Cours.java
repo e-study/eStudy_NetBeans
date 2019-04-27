@@ -68,4 +68,7 @@ public class Cours {
     public String toString() {
         return "Cours{" + "id=" + id + ", nom=" + nom + ", idEnseignant=" + idEnseignant + ", ponderation=" + ponderation + ", idPromotion=" + idPromotion + '}';
     }
+    public static void main(String[]args){
+    
+    }
 }
