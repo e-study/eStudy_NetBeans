@@ -24,6 +24,10 @@ public class Horaire {
         this.idPromotion = idPromotion;
         this.seances = seances;
     }
+    
+    public Horaire() {
+        
+    }
 
     public int getId() {
         return id;

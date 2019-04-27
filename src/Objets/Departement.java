@@ -19,6 +19,10 @@ public class Departement {
         this.nom = nom;
         this.idFaculte = idFaculte;
     }
+    
+    public Departement(){
+    
+    }
 
     public int getId() {
         return id;
@@ -48,5 +52,11 @@ public class Departement {
     public String toString() {
         return "Departement{" + "id=" + id + ", nom=" + nom + ", idFaculte=" + idFaculte + '}';
     }  
+    
+    public static void main(String[] args){
+        System.out.println("Hello les gars !");
+    }
+    
+    
     
 }
