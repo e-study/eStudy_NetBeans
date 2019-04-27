@@ -69,6 +69,6 @@ public class Cours {
         return "Cours{" + "id=" + id + ", nom=" + nom + ", idEnseignant=" + idEnseignant + ", ponderation=" + ponderation + ", idPromotion=" + idPromotion + '}';
     }
     public static void main(String[]args){
-    
+    System.out.println("bonjour");
     }
 }
