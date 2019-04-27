@@ -29,7 +29,15 @@ public class Seance {
         this.heureDebut = heureDebut;
         this.heureFin = heureFin;
     }
+//
 
+    public Seance() {
+        //
+        System.out.println("Un Constructeur Vide Seance!!!");
+        //
+    }
+    
+    //
     public int getId() {
         return id;
     }

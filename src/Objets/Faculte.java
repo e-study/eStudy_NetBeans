@@ -22,6 +22,15 @@ public class Faculte {
         this.idEtablissement = idEtablissement;
         this.nomChef = nomChef;
     }
+    //
+
+    public Faculte() {
+        //
+        System.out.println("Un Constructeur vide Faculté!!");
+        //
+    }
+    
+    //
 
     public int getId() {
         return id;
