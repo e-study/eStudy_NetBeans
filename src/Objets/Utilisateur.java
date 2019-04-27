@@ -90,4 +90,8 @@ public class Utilisateur {
         return "Utilisateur{" + "id=" + id + ", nom=" + nom + ", motDePasse=" + motDePasse + ", email=" + email + ", categorie=" + categorie + '}';
     }
     
+    public static void main(String[] a){
+        System.out.println("Hello!");
+    }
+    
 }
