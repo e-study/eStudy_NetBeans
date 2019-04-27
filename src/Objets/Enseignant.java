@@ -10,6 +10,7 @@ package Objets;
  * @author HP Pavilion
  */
 public class Enseignant {
+
     public int id;
     public String nom;
     public String titre;
@@ -58,4 +59,10 @@ public class Enseignant {
     public String toString() {
         return "Enseignant{" + "id=" + id + ", nom=" + nom + ", titre=" + titre + ", idEtablissement=" + idEtablissement + '}';
     }
+
+    public static void main(String[] args) {
+        System.out.println("Hello");
+
+    }
+
 }

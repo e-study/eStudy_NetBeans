@@ -61,4 +61,9 @@ public class Horaire {
     public String toString() {
         return "Horaire{" + "id=" + id + ", datePublication=" + datePublication + ", idPromotion=" + idPromotion + ", seances=" + seances + '}';
     }    
+
+    public static void main(String[] args){
+    
+    System.out.println("Hello");
+    }
 }
