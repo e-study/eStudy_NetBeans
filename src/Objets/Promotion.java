@@ -54,6 +54,17 @@ public class Promotion {
         this.idDepartement = idDepartement;
     }
 
+    public Promotion() {
+        
+        
+    }
+    
+        public static void main(String[] args) {
+        System.out.println("Hello");
+
+    }
+
+    
     @Override
     public String toString() {
         return "Promotion{" + "id=" + id + ", nom=" + nom + ", idDepartement=" + idDepartement + ", idEtudiantCP=" + idEtudiantCP + '}';
